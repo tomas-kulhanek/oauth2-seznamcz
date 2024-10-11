@@ -68,12 +68,12 @@ class SeznamCzResourceOwner implements ResourceOwnerInterface
         return $this->response['email_verified'];
     }
 
-    public function getFirstname(): string
+    public function getFirstName(): string
     {
         return $this->response['firstname'];
     }
 
-    public function getLastname(): string
+    public function getLastName(): string
     {
         return $this->response['lastname'];
     }
